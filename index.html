@@ -15,5 +15,95 @@
     <sub>Hello!</sub>
     <br>
     <sup>Hello!</sup>
+    <br>
+    <span><i><b>H<sub>2</sub>O</b></i></span>
+    <br>
+    5>2
+    <br>
+    5&gt;2
+    <br>
+    &alpha;&rarr;&beta;
+    <ul>
+        <li>Перший</li>
+        <li>Другий</li>
+        <li>
+            <ul><!-- start="2" -->
+                <li>Перший</li>
+                <li >Другий</li>
+                <li>Третій</li>
+            </ul>
+        </li>
+    </ul>
+    <ol><!-- start="2" -->
+        <li>Перший</li>
+        <li value="5">Другий</li>
+        <li>Третій</li>
+    </ol>
+    <dl>
+        <dt>IТех</dt>
+        <dd>Internet-технології</dd>
+        <dt>КСХ</dt>
+        <dd>Комп'ютерна схемотехніка</dd>
+        <dt>АК</dt>
+        <dd>Архітектура комп'ютерів</dd>
+    </dl>
+
+    <select name="groupName" id="groupName">
+        <optgroup label="line">
+            <option value="KIUKI-21-3">KIUKI-21-3</option>
+            <option value="KIUKI-21-4">KIUKI-21-4</option>
+        </optgroup>
+        <option value="KIUKIu-22-1">KIUKIu-22-1</option>
+    </select>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="2">FIO</th>
+                <th colspan="3">Score</th>
+            </tr>
+            <tr>
+                <th>IТех</th>
+                <th>КСХ</th>
+                <th>АК</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ivanov</td>
+                <td>60</td>
+                <td>60</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Petrov</td>
+                <td>90</td>
+                <td>60</td>
+                <td>79</td>
+            </tr>
+            <tr>
+                <td>Sidorov</td>
+                <td>90</td>
+                <td>93</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- <form action="#" method="get"> -->
+    <form action="#" method="post">
+        <input name="login" type="text">
+        <br>
+        <input name="pass" type="password">
+        <br>
+
+        <input type="radio" name="score" value="зараховано" id="scoreZarah"><label for="scoreZarah">зараховано</label>
+        <input type="radio" name="score" value="незараховано" id="scoreNeZarah"><label for="scoreNeZarah">незараховано</label>
+
+        <br>
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
