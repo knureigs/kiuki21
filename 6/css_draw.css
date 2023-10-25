@@ -1,0 +1,13 @@
+#rectangle {
+    /* border: 10px solid black;
+    border-color: black green yellow olive; */
+
+    /* border-width: 100px; */
+
+    border-bottom: 200px solid green;
+    border-left: 200px solid white;
+    
+    transform: rotate(40deg);
+
+    outline: 20px solid violet;
+}
